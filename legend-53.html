@@ -1,0 +1,43 @@
+<!-- Document type declaration: tells the browser to render the page using the modern HTML5 standard -->
+<!DOCTYPE html>
+<!-- Root container element for the entire HTML document -->
+<html>
+<!-- Container for all visible content rendered in the web browser -->
+<body>
+
+<!-- Level 1 Heading: primary main title of the page/section -->
+<h1>The legend element</h1>
+
+<!-- Form container: collects user inputs to submit to a web server for processing -->
+<form action="/action_page.php">
+ <!-- Groups related form input elements and labels within a visual border box -->
+ <fieldset>
+  <!-- Caption title positioned on the border of a `<fieldset>` group -->
+  <legend>Personalia:</legend>
+  <!-- Accessible caption/label bound to a form control via `for` attribute -->
+  <label for="fname">First name:</label>
+  <!-- Interactive form input control (text, password, checkbox, radio, submit, etc.) -->
+  <input type="text" id="fname" name="fname"><br><br>
+  <!-- Accessible caption/label bound to a form control via `for` attribute -->
+  <label for="lname">Last name:</label>
+  <!-- Interactive form input control (text, password, checkbox, radio, submit, etc.) -->
+  <input type="text" id="lname" name="lname"><br><br>
+  <!-- Accessible caption/label bound to a form control via `for` attribute -->
+  <label for="email">Email:</label>
+  <!-- Interactive form input control (text, password, checkbox, radio, submit, etc.) -->
+  <input type="email" id="email" name="email"><br><br>
+  <!-- Accessible caption/label bound to a form control via `for` attribute -->
+  <label for="birthday">Birthday:</label>
+  <!-- Interactive form input control (text, password, checkbox, radio, submit, etc.) -->
+  <input type="date" id="birthday" name="birthday"><br><br>
+  <!-- Interactive form input control (text, password, checkbox, radio, submit, etc.) -->
+  <input type="submit" value="Submit">
+ <!-- Closes the <fieldset> element -->
+ </fieldset>
+<!-- Closes the <form> element -->
+</form>
+
+<!-- Closes the visible <body> content section -->
+</body>
+<!-- Closes the root HTML document -->
+</html>

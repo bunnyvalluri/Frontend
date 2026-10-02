@@ -1,0 +1,28 @@
+<!-- Document type declaration: tells the browser to render the page using the modern HTML5 standard -->
+<!DOCTYPE html>
+<!-- Root container element for the entire HTML document -->
+<html>
+<!-- Container for all visible content rendered in the web browser -->
+<body>
+
+<!-- Level 1 Heading: primary main title of the page/section -->
+<h1>The bdi element</h1>
+
+<!-- Paragraph element: represents a block of standard body text -->
+<p>In the example below, usernames are shown along with the number of points in a contest. If the bdi element is not supported in the browser, the username of the Arabic user would confuse the text (the bidirectional algorithm would put the colon and the number "90" next to the word "User" rather than next to the word "points").</p>
+
+<!-- Unordered list container: renders a bulleted list of items -->
+<ul>
+ <!-- List item element inside ordered `<ol>` or unordered `<ul>` lists -->
+ <li>User <bdi>hrefs</bdi>: 60 points</li>
+ <!-- List item element inside ordered `<ol>` or unordered `<ul>` lists -->
+ <li>User <bdi>jdoe</bdi>: 80 points</li>
+ <!-- List item element inside ordered `<ol>` or unordered `<ul>` lists -->
+ <li>User <bdi>إيان</bdi>: 90 points</li>
+<!-- Closes the <ul> element -->
+</ul>
+
+<!-- Closes the visible <body> content section -->
+</body>
+<!-- Closes the root HTML document -->
+</html>

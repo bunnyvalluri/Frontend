@@ -1,0 +1,30 @@
+<!-- Document type declaration: tells the browser to render the page using the modern HTML5 standard -->
+<!DOCTYPE html>
+<!-- Root container element for the entire HTML document -->
+<html>
+<!-- Container for all visible content rendered in the web browser -->
+<body>
+
+<!-- Level 1 Heading: primary main title of the page/section -->
+<h1>The meter element</h1>
+
+<!-- Paragraph element: represents a block of standard body text -->
+<p>The meter element is used to display a gauge:</p>
+
+<!-- Accessible caption/label bound to a form control via `for` attribute -->
+<label for="disk_c">Disk usage C:</label>
+<!-- Scalar measurement gauge: represents a value within a known range (fraction/percentage) -->
+<meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+
+<!-- Accessible caption/label bound to a form control via `for` attribute -->
+<label for="disk_d">Disk usage D:</label>
+<!-- Scalar measurement gauge: represents a value within a known range (fraction/percentage) -->
+<meter id="disk_d" value="0.6">60%</meter>
+
+<!-- Paragraph element: represents a block of standard body text -->
+<p><strong>Note:</strong> The meter tag is not supported in Edge 12 (or earlier).</p>
+
+<!-- Closes the visible <body> content section -->
+</body>
+<!-- Closes the root HTML document -->
+</html>

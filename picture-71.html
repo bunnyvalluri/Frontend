@@ -1,0 +1,34 @@
+<!-- Document type declaration: tells the browser to render the page using the modern HTML5 standard -->
+<!DOCTYPE html>
+<!-- Root container element for the entire HTML document -->
+<html>
+<!-- Container for document metadata (charset, viewport, title, stylesheets, scripts) -->
+<head>
+<!-- Configures responsive viewport scaling for mobile and desktop screens -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Closes the metadata <head> section -->
+</head>
+<!-- Container for all visible content rendered in the web browser -->
+<body>
+
+<!-- Level 1 Heading: primary main title of the page/section -->
+<h1>The picture element</h1>
+
+<!-- Paragraph element: represents a block of standard body text -->
+<p>Resize the browser window to load different images.</p>
+
+<!-- Responsive image container: serves different image sources based on media queries -->
+<picture>
+  <!-- Media source: specifies alternate media files and MIME types for audio/video/picture -->
+  <source media="(min-width:550px)" srcset="https://th.bing.com/th/id/R.020ddb3d2087436a7b843e314f344040?rik=%2bYUH7A9UT3XK9A&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2016%2f02%2f198449-nature-orange-flowers.jpg&ehk=%2f%2bPdWGASr2X%2b2Vt1YgdoS7tw2o9T3MNcEESY3ID2Ukk%3d&risl=&pid=ImgRaw&r=0">
+  <!-- Media source: specifies alternate media files and MIME types for audio/video/picture -->
+  <source media="(min-width:365px)" srcset="https://th.bing.com/th/id/R.020ddb3d2087436a7b843e314f344040?rik=%2bYUH7A9UT3XK9A&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2016%2f02%2f198449-nature-orange-flowers.jpg&ehk=%2f%2bPdWGASr2X%2b2Vt1YgdoS7tw2o9T3MNcEESY3ID2Ukk%3d&risl=&pid=ImgRaw&r=0">
+  <!-- Image element: embeds a graphic via src URL, dimensions, and alternative text -->
+  <img src="https://th.bing.com/th/id/R.020ddb3d2087436a7b843e314f344040?rik=%2bYUH7A9UT3XK9A&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2016%2f0２%２f198449-nature-orange-flowers.jpg&ehk=%２f%２bPdWGASr２X%２b２Vt1YgdoS7tw２o9T３MNcEESY３ID２Ukk%３d&risl=&pid=ImgRaw&r=0" alt="Flowers" style="width:auto;">
+<!-- Closes the <picture> element -->
+</picture>
+
+<!-- Closes the visible <body> content section -->
+</body>
+<!-- Closes the root HTML document -->
+</html>

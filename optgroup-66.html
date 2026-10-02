@@ -1,0 +1,48 @@
+<!-- Document type declaration: tells the browser to render the page using the modern HTML5 standard -->
+<!DOCTYPE html>
+<!-- Root container element for the entire HTML document -->
+<html>
+<!-- Container for all visible content rendered in the web browser -->
+<body>
+
+<!-- Level 1 Heading: primary main title of the page/section -->
+<h1>The optgroup element</h1>
+
+<!-- Paragraph element: represents a block of standard body text -->
+<p>The optgroup tag is used to group related options in a drop-down list:</p>
+
+<!-- Form container: collects user inputs to submit to a web server for processing -->
+<form action="/action_page.php">
+  <!-- Accessible caption/label bound to a form control via `for` attribute -->
+  <label for="cars">Choose a car:</label>
+  <!-- Dropdown selection menu control for choosing one or multiple options -->
+  <select name="cars" id="cars">
+    <!-- Groups related options inside a `<select>` dropdown with a label -->
+    <optgroup label="Swedish Cars">
+      <!-- Selectable choice item inside a `<select>` dropdown or `<datalist>` -->
+      <option value="volvo">Volvo</option>
+      <!-- Selectable choice item inside a `<select>` dropdown or `<datalist>` -->
+      <option value="saab">Saab</option>
+    <!-- Closes the <optgroup> element -->
+    </optgroup>
+    <!-- Groups related options inside a `<select>` dropdown with a label -->
+    <optgroup label="German Cars">
+      <!-- Selectable choice item inside a `<select>` dropdown or `<datalist>` -->
+      <option value="mercedes">Mercedes</option>
+      <!-- Selectable choice item inside a `<select>` dropdown or `<datalist>` -->
+      <option value="audi">Audi</option>
+    <!-- Closes the <optgroup> element -->
+    </optgroup>
+  <!-- Closes the <select> element -->
+  </select>
+  <!-- Line break element: creates a single line break without starting a new paragraph -->
+  <br><br>
+  <!-- Interactive form input control (text, password, checkbox, radio, submit, etc.) -->
+  <input type="submit" value="Submit">
+<!-- Closes the <form> element -->
+</form>
+ 
+<!-- Closes the visible <body> content section -->
+</body>
+<!-- Closes the root HTML document -->
+</html>

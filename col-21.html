@@ -1,0 +1,68 @@
+<!-- Document type declaration: tells the browser to render the page using the modern HTML5 standard -->
+<!DOCTYPE html>
+<!-- Root container element for the entire HTML document -->
+<html>
+<!-- Container for document metadata (charset, viewport, title, stylesheets, scripts) -->
+<head>
+<!-- Embedded CSS styling for page elements -->
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+<!-- Closes the CSS style block -->
+</style>
+<!-- Closes the metadata <head> section -->
+</head>
+<!-- Container for all visible content rendered in the web browser -->
+<body>
+
+<!-- Level 1 Heading: primary main title of the page/section -->
+<h1>The col element</h1>
+
+<!-- Data table container: displays structured tabular rows and columns -->
+<table>
+  <!-- Groups one or more columns in a table for uniform styling -->
+  <colgroup>
+    <!-- Specifies column-level properties and formatting inside a table `<colgroup>` -->
+    <col span="2" style="background-color:red">
+    <!-- Specifies column-level properties and formatting inside a table `<colgroup>` -->
+    <col style="background-color:yellow">
+  <!-- Closes the <colgroup> element -->
+  </colgroup>
+  <!-- Table row: horizontal row container holding header (`<th>`) or data (`<td>`) cells -->
+  <tr>
+    <!-- Table header cell: renders column/row heading in bold, centered text -->
+    <th>ISBN</th>
+    <!-- Table header cell: renders column/row heading in bold, centered text -->
+    <th>Title</th>
+    <!-- Table header cell: renders column/row heading in bold, centered text -->
+    <th>Price</th>
+  <!-- Closes the <tr> element -->
+  </tr>
+  <!-- Table row: horizontal row container holding header (`<th>`) or data (`<td>`) cells -->
+  <tr>
+    <!-- Table data cell: contains standard data values inside a table row -->
+    <td>3476896</td>
+    <!-- Table data cell: contains standard data values inside a table row -->
+    <td>My first HTML</td>
+    <!-- Table data cell: contains standard data values inside a table row -->
+    <td>$53</td>
+  <!-- Closes the <tr> element -->
+  </tr>
+  <!-- Table row: horizontal row container holding header (`<th>`) or data (`<td>`) cells -->
+  <tr>
+    <!-- Table data cell: contains standard data values inside a table row -->
+    <td>5869207</td>
+    <!-- Table data cell: contains standard data values inside a table row -->
+    <td>My first CSS</td>
+    <!-- Table data cell: contains standard data values inside a table row -->
+    <td>$49</td>
+  <!-- Closes the <tr> element -->
+  </tr>
+<!-- Closes the <table> element -->
+</table>
+
+<!-- Closes the visible <body> content section -->
+</body>
+<!-- Closes the root HTML document -->
+</html>

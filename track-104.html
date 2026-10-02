@@ -1,0 +1,32 @@
+<!-- Document type declaration: tells the browser to render the page using the modern HTML5 standard -->
+<!DOCTYPE html>
+<!-- Root container element for the entire HTML document -->
+<html lang="en">
+<!-- Container for document metadata (charset, viewport, title, stylesheets, scripts) -->
+<head>
+  <!-- Sets character encoding to UTF-8 for universal character & symbol support -->
+  <meta charset="UTF-8">
+  <!-- Configures responsive viewport scaling for mobile and desktop screens -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Defines the webpage title displayed on the browser tab and bookmarks -->
+  <title>Document</title>
+<!-- Closes the metadata <head> section -->
+</head>
+<!-- Container for all visible content rendered in the web browser -->
+<body>
+  <!-- Video player element: embeds video streams or files with playback controls -->
+  <video width="320" height="240" controls>
+  <!-- Media source: specifies alternate media files and MIME types for audio/video/picture -->
+  <source src="forrest_gump.mp4" type="video/mp4">
+  <!-- Media source: specifies alternate media files and MIME types for audio/video/picture -->
+  <source src="forrest_gump.ogg" type="video/ogg">
+  <!-- Text track: provides subtitles, captions, or descriptions for `<video>` / `<audio>` -->
+  <track src="fgsubtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+  <!-- Text track: provides subtitles, captions, or descriptions for `<video>` / `<audio>` -->
+  <track src="fgsubtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian">
+<!-- Closes the <video> element -->
+</video>
+<!-- Closes the visible <body> content section -->
+</body>
+<!-- Closes the root HTML document -->
+</html>

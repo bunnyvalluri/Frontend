@@ -1,0 +1,42 @@
+<!-- Document type declaration: tells the browser to render the page using the modern HTML5 standard -->
+<!DOCTYPE html>
+<!-- Root container element for the entire HTML document -->
+<html>
+<!-- Container for all visible content rendered in the web browser -->
+<body>
+
+<!-- Level 1 Heading: primary main title of the page/section -->
+<h1>The datalist element</h1>
+
+<!-- Form container: collects user inputs to submit to a web server for processing -->
+<form action="/action_page.php" method="get">
+  <!-- Accessible caption/label bound to a form control via `for` attribute -->
+  <label for="browser">Choose your browser from the list:</label>
+  <!-- Interactive form input control (text, password, checkbox, radio, submit, etc.) -->
+  <input list="browsers" name="browser" id="browser">
+  <!-- Predefined list of autocomplete options for an `<input>` field -->
+  <datalist id="browsers">
+    <!-- Selectable choice item inside a `<select>` dropdown or `<datalist>` -->
+    <option value="Edge">
+    <!-- Selectable choice item inside a `<select>` dropdown or `<datalist>` -->
+    <option value="Firefox">
+    <!-- Selectable choice item inside a `<select>` dropdown or `<datalist>` -->
+    <option value="Chrome">
+    <!-- Selectable choice item inside a `<select>` dropdown or `<datalist>` -->
+    <option value="Opera">
+    <!-- Selectable choice item inside a `<select>` dropdown or `<datalist>` -->
+    <option value="Safari">
+  <!-- Closes the <datalist> element -->
+  </datalist>
+  <!-- Interactive form input control (text, password, checkbox, radio, submit, etc.) -->
+  <input type="submit">
+<!-- Closes the <form> element -->
+</form>
+
+<!-- Paragraph element: represents a block of standard body text -->
+<p><strong>Note:</strong> The datalist tag is not supported in Safari 12.0 (or earlier).</p>
+
+<!-- Closes the visible <body> content section -->
+</body>
+<!-- Closes the root HTML document -->
+</html>

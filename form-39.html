@@ -1,0 +1,33 @@
+<!-- Document type declaration: tells the browser to render the page using the modern HTML5 standard -->
+<!DOCTYPE html>
+<!-- Root container element for the entire HTML document -->
+<html>
+<!-- Container for all visible content rendered in the web browser -->
+<body>
+
+<!-- Level 1 Heading: primary main title of the page/section -->
+<h1>The form element</h1>
+
+<!-- Form container: collects user inputs to submit to a web server for processing -->
+<form action="/action_page.php">
+  <!-- Accessible caption/label bound to a form control via `for` attribute -->
+  <label for="fname">First name:</label>
+  <!-- Interactive form input control (text, password, checkbox, radio, submit, etc.) -->
+  <input type="text" id="fname" name="fname"><br><br>
+  <!-- Accessible caption/label bound to a form control via `for` attribute -->
+  <label for="lname">Last name:</label>
+  <!-- Interactive form input control (text, password, checkbox, radio, submit, etc.) -->
+  <input type="text" id="lname" name="lname"><br><br>
+  <!-- Interactive form input control (text, password, checkbox, radio, submit, etc.) -->
+  <input type="submit" value="Submit">
+<!-- Closes the <form> element -->
+</form>
+
+<!-- Paragraph element: represents a block of standard body text -->
+<p>Click the "Submit" button and the form-data will be sent to a page on the 
+server called "action_page.php".</p>
+
+<!-- Closes the visible <body> content section -->
+</body>
+<!-- Closes the root HTML document -->
+</html>

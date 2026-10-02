@@ -1,0 +1,39 @@
+<!-- Document type declaration: tells the browser to render the page using the modern HTML5 standard -->
+<!DOCTYPE html>
+<!-- Root container element for the entire HTML document -->
+<html>
+<!-- Container for all visible content rendered in the web browser -->
+<body>
+
+<!-- Level 1 Heading: primary main title of the page/section -->
+<h1>The template Element</h1>
+
+<!-- Paragraph element: represents a block of standard body text -->
+<p>Click the button below to display the hidden content from the template element.</p>
+
+<!-- Interactive clickable button for triggering form submissions or JavaScript actions -->
+<button onclick="showContent()">Show hidden content</button>
+
+<!-- HTML template: holds client-side markup inert until cloned and rendered via JavaScript -->
+<template>
+  <!-- Level 2 Heading: major subsection title -->
+  <h2>Flower</h2>
+  <!-- Image element: embeds a graphic via src URL, dimensions, and alternative text -->
+  <img src="img_white_flower.jpg" width="214" height="204">
+<!-- Closes the <template> element -->
+</template>
+
+<!-- JavaScript block for client-side interactivity -->
+<script>
+function showContent() {
+  let temp = document.getElementsByTagName("template")[0];
+  let clon = temp.content.cloneNode(true);
+  document.body.appendChild(clon);
+}
+<!-- Closes the JavaScript block -->
+</script>
+
+<!-- Closes the visible <body> content section -->
+</body>
+<!-- Closes the root HTML document -->
+</html>

@@ -1,0 +1,26 @@
+<!-- Document type declaration: tells the browser to render the page using the modern HTML5 standard -->
+<!DOCTYPE html>
+<!-- Root container element for the entire HTML document -->
+<html>
+<!-- Container for all visible content rendered in the web browser -->
+<body>
+
+<!-- Level 1 Heading: primary main title of the page/section -->
+<h1>The output element</h1>
+
+<!-- Form container: collects user inputs to submit to a web server for processing -->
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+<!-- Interactive form input control (text, password, checkbox, radio, submit, etc.) -->
+<input type="range" id="a" value="50">
++<input type="number" id="b" value="25">
+=<output name="x" for="a b"></output>
+<!-- Closes the <form> element -->
+</form>
+
+<!-- Paragraph element: represents a block of standard body text -->
+<p><strong>Note:</strong> The output element is not supported in Edge 12 (or earlier).</p>
+
+<!-- Closes the visible <body> content section -->
+</body>
+<!-- Closes the root HTML document -->
+</html>

@@ -1,0 +1,31 @@
+<!-- Document type declaration: tells the browser to render the page using the modern HTML5 standard -->
+<!DOCTYPE html>
+<!-- Root container element for the entire HTML document -->
+<html>
+<!-- Container for all visible content rendered in the web browser -->
+<body>
+
+<!-- Level 1 Heading: primary main title of the page/section -->
+<h1>The map and area elements</h1>
+
+<!-- Paragraph element: represents a block of standard body text -->
+<p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+
+<!-- Image element: embeds a graphic via src URL, dimensions, and alternative text -->
+<img src="https://img.freepik.com/premium-photo/modern-office-design-with-flexible-workspaces-bright-colors-visualization-flexible-workspace-that-can-easily-transition-inperson-virtual-collaboration_538213-79473.jpg" alt="Workplace" usemap="#workmap" width="700" height="400">
+
+<!-- Client-side image map: links clickable `<area>` hotspots to an image -->
+<map name="workmap">
+  <!-- Defines a clickable hotspot region (rectangle, circle, polygon) inside an image map -->
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <!-- Defines a clickable hotspot region (rectangle, circle, polygon) inside an image map -->
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <!-- Defines a clickable hotspot region (rectangle, circle, polygon) inside an image map -->
+  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+<!-- Closes the <map> element -->
+</map>
+
+<!-- Closes the visible <body> content section -->
+</body>
+<!-- Closes the root HTML document -->
+</html>
